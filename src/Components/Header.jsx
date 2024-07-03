@@ -15,7 +15,7 @@ const Header = () => {
     // }
     return (
         <section className=' bg-white min-h-screen py-2 bg-hero-img bg-no-repeat bg-cover' id='hero'>
-            <div className="container mx-auto px-3">
+            <div className="container px-3 relative z-[1]">
                 <nav className=' flex lg:justify-end w-full mt-4 pt-px mb-20 justify-center'>
                     <div className=" flex items-center gap-10 justify-between w-full sm:w-auto">
                         <div className={`${open ? "left-1/2 -translate-x-1/2" : ""} flex absolute  top-24 -left-full sm:relative sm:top-0 sm:left-0 items-center gap-10 duration-300 ease-linear`}>
@@ -44,19 +44,19 @@ const Header = () => {
                         Now I let you
                         go!
                     </p>
-                    <p className='mt-1.5 pt-px opacity-70 text-base text-black font-normal font-poppins mb-0.5'>
+                    <div className='mt-1.5 pt-px opacity-70 text-base text-black font-normal font-poppins mb-0.5'>
                         For women who do not want to be completely dragged down by a SEPARATION.
                         <p>
                             How to let go of your EX so you can leave him behind
                             without having to run to a therapist right away.
                         </p>
-                    </p>
+                    </div>
                     <div className=" flex justify-between items-center mt-8">
                         <div className=" max-w-[452px] rounded-[63px] w-full p-[1.7px] bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] cursor-pointer">
                             <div className=" flex items-center max-w-[452px] rounded-[63px] w-full py-[5.83px] px-2 bg-white duration-300 ease-linear hover:shadow-[0_0_5px_#1E52CF_inset]">
                                 <img src={msg} alt="msg-icon" />
-                                <div className="">
-                                    <p className=' font-inter font-medium text-sm sm:text-base bg-clip-text bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] text-transparent ms-1'>
+                                <div className="flex">
+                                    <p className=' font-inter capitalize font-medium text-sm sm:text-base bg-clip-text bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] text-transparent ms-1'>
                                         Book a non-binding initial consultation now
                                     </p>
                                 </div>
@@ -68,7 +68,7 @@ const Header = () => {
                 <div className=" pt-16 -mt-px flex w-full justify-start lg:justify-end xl:pr-14">
                     <div className=" max-w-[365.68px] w-full border-[#9800B0] border-s-2 pl-3 xl:mr-14">
                         <div className=" ml-px flex w-full items-start justify-between gap-1 -mt-[5px]">
-                            <p className=' font-neue font-normal text-sm sm:text-base max-w-[120px] lg:text-white text-black'>
+                            <p className=' font-neue font-normal uppercase text-xs sm:text-base max-w-[146px] lg:text-white text-black'>
                                 Die wichtigsten Aspekte einer Trennung:
                             </p>
                             <div className=" flex flex-col">

@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-img': "url('./Assets/image/webp/Hero-bg-img.png')",
+        'self-img': "url('./Assets/image/webp/self-bg-img.png')",
       },
       fontFamily: {
         'inter': "Inter, sans-serif",
@@ -21,7 +22,8 @@ module.exports = {
         lg: '1024px',
         xl: '1140px',
         '2xl': '1140px'
-      }
+      },
+      center: true,
     }
   },
   plugins: [],
