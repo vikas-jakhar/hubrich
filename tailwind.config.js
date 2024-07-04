@@ -8,6 +8,7 @@ module.exports = {
       backgroundImage: {
         'hero-img': "url('./Assets/image/webp/Hero-bg-img.png')",
         'self-img': "url('./Assets/image/webp/self-bg-img.png')",
+        'ring': "url('./Assets/image/webp/ring-img.png')",
       },
       fontFamily: {
         'inter': "Inter, sans-serif",

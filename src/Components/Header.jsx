@@ -14,7 +14,7 @@ const Header = () => {
     //     // document.body.classList.remove("overflow-hidden");
     // }
     return (
-        <section className=' bg-white min-h-[810px] py-2 bg-hero-img bg-no-repeat bg-cover bg-center' id='hero'>
+        <section className=' bg-white min-h-[810px] py-2 bg-hero-img bg-no-repeat bg-cover sm:bg-center' id='hero'>
             <div className="container px-3 relative z-[1]">
                 <nav className=' flex lg:justify-end w-full mt-4 pt-px mb-20 justify-center'>
                     <div className=" flex items-center gap-10 justify-between w-full sm:w-auto">

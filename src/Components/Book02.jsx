@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import msg from "../Assets/image/svg/msg-icon.svg";
 import flower from "../Assets/image/webp/flower.png";
 import centerflower from "../Assets/image/webp/center-flower.png";
@@ -9,9 +7,6 @@ import redline from "../Assets/image/webp/red-line2.png";
 import redline3 from "../Assets/image/webp/red-line3.png";
 
 const Book02 = () => {
-    useEffect(() => {
-        AOS.init();
-    }, [])
     return (
         <section className=' pt-11 pb-6 relative'>
             <div className="container px-3 relative z-[1] my-0.5 pt-px pb-5">
@@ -119,7 +114,7 @@ const Book02 = () => {
                     </div>
                 </div>
             </div>
-            <img src={centerflower} alt="centerflower" className=' absolute top-1/2 right-0 -translate-y-1/2' />
+            <img src={centerflower} alt="centerflower" className=' absolute top-[48%] right-0 -translate-y-1/2' />
             <img src={bottomflower} alt="bottomflower" className=' absolute left-0 bottom-0' data-aos="fade-right" data-aos-duration="1000" />
         </section>
     )

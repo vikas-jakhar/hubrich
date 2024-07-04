@@ -1,11 +1,6 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Self = () => {
-  useEffect(() => {
-    AOS.init();
-  }, [])
   return (
     <section className=' relative bg-self-img bg-no-repeat bg-cover bg-center py-2 md:py-0'>
       <div className="container px-3">
