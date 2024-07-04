@@ -14,11 +14,11 @@ const Header = () => {
     //     // document.body.classList.remove("overflow-hidden");
     // }
     return (
-        <section className=' bg-white min-h-screen py-2 bg-hero-img bg-no-repeat bg-cover' id='hero'>
+        <section className=' bg-white min-h-[810px] py-2 bg-hero-img bg-no-repeat bg-cover bg-center' id='hero'>
             <div className="container px-3 relative z-[1]">
                 <nav className=' flex lg:justify-end w-full mt-4 pt-px mb-20 justify-center'>
                     <div className=" flex items-center gap-10 justify-between w-full sm:w-auto">
-                        <div className={`${open ? "left-1/2 -translate-x-1/2" : ""} flex absolute  top-24 -left-full sm:relative sm:top-0 sm:left-0 items-center gap-10 duration-300 ease-linear`}>
+                        <div className={`${open ? "left-1/2 -translate-x-1/2" : ""} flex absolute sm:translate-x-0  top-24 -left-full sm:relative sm:top-0 sm:left-0 items-center gap-10 duration-300 ease-linear`}>
                             <a href="#hero" onClick={togglemenu} className=' font-normal text-base font-neue text-black xl:text-white duration-300 ease-linear hover:text-[#1E52CF]'>
                                 Benifits
                             </a>
@@ -66,7 +66,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className=" pt-16 -mt-px flex w-full justify-start lg:justify-end xl:pr-14">
-                    <div className=" max-w-[365.68px] w-full border-[#9800B0] border-s-2 pl-3 xl:mr-14">
+                    <div className=" max-w-[365.68px] w-full border-[#9800B0] border-s-2 pl-3 xl:mr-14 lg:mt-1">
                         <div className=" ml-px flex w-full items-start justify-between gap-1 -mt-[5px]">
                             <p className=' font-neue font-normal uppercase text-xs sm:text-base max-w-[146px] lg:text-white text-black'>
                                 Die wichtigsten Aspekte einer Trennung:
