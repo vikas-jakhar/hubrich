@@ -39,7 +39,7 @@ const Mindset = () => {
     };
     return (
         <section className=' relative pt-2 pb-24 overflow-hidden'>
-            <div className="container px-3 mt-2 lg:mb-[90px]">
+            <div className="container px-3 mt-2 xl:pb-2 lg:mb-[90px]">
                 <div className=" flex justify-end lg:pb-6">
                     <div className=" relative flex items-start flex-col md:-right-1 lg:right-0" data-aos="fade-left" data-aos-duration="1000">
                         <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 lg:ml-[120px] md:ml-[100px] sm:ml-[63px] ml-[55px] mb-[20px]'>
@@ -48,7 +48,7 @@ const Mindset = () => {
                         <div className=" flex items-end">
                             <div className=" flex items-end -mb-3">
                                 <p className=' font-normal font-neue text-black md:text-xl lg:text-2xl uppercase lg:mb-1'>
-                                    fault
+                                    analysis
                                 </p>
                                 <span className=' md:text-3xl lg:text-[40px] font-normal lg:mb-3 font-neue text-black rotate-90'>
                                     04
@@ -58,8 +58,8 @@ const Mindset = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" mt-0.5 flex flex-row flex-wrap -mx-3">
-                    <div className=" flex flex-col items-center lg:items-start lg:w-1/2 w-full px-3 pt-9">
+                <div className=" mt-0.5 flex flex-row flex-wrap pb-1 -mx-3 mb-px">
+                    <div className=" flex flex-col items-center lg:items-start lg:w-1/2 w-full px-3 pt-9" data-aos="fade-right" data-aos-duration="1000">
                         <p className=' font-neue font-normal text-2xl sm:text-[29px] leading-[37px] text-black uppercase'>
                             THE FOUR PHASES OF
                         </p>
@@ -80,7 +80,7 @@ const Mindset = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" lg:w-1/2 w-full px-3 relative mt-6 lg:mt-0 pl-7 sm:pl-14">
+                    <div className=" lg:w-1/2 w-full px-3 relative mt-6 lg:mt-0 pl-7 sm:pl-14" data-aos="fade-left" data-aos-duration="1000">
                         <Slider {...settings}>
                             <div className="bg-[#003E92] relative min-h-[350px] sm:min-h-[448px]">
                                 <div className=" grid place-items-center w-full h-full pt-8 sm:pt-16">
@@ -150,7 +150,7 @@ const Mindset = () => {
                     </div>
                 </div>
             </div>
-            <img src={ellipse} alt="ellipse" className=' absolute -top-[78%] left-0' />
+            <img src={ellipse} alt="ellipse" className=' absolute -top-[52%] left-0' />
         </section>
     )
 }

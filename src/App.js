@@ -7,6 +7,9 @@ import Book02 from './Components/Book02';
 import Target from './Components/Target';
 import Ring from './Components/Ring';
 import Mindset from './Components/Mindset';
+import Your from './Components/Your';
+import Lawyer from './Components/Lawyer';
+import Clients from './Components/Clients';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <Target />
       <Ring />
       <Mindset />
+      <Your />
+      <Lawyer />
+      <Clients />
     </main>
   );
 }
