@@ -39,10 +39,10 @@ const Mindset = () => {
     };
     return (
         <section className=' relative pt-2 pb-24 overflow-hidden'>
-            <div className="container px-3 mt-2 xl:pb-2 lg:mb-[90px]">
+            <div className="container px-3 mt-2 xl:pb-2 lg:mb-[90px] relative z-[1]">
                 <div className=" flex justify-end lg:pb-6">
                     <div className=" relative flex items-start flex-col md:-right-1 lg:right-0" data-aos="fade-left" data-aos-duration="1000">
-                        <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 lg:ml-[120px] md:ml-[100px] sm:ml-[63px] ml-[55px] mb-[20px]'>
+                        <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 lg:ml-[164px] md:ml-[136px] sm:ml-[95px] ml-[85px] mb-[20px]'>
                             MJH
                         </p>
                         <div className=" flex items-end">
@@ -150,7 +150,7 @@ const Mindset = () => {
                     </div>
                 </div>
             </div>
-            <img src={ellipse} alt="ellipse" className=' absolute -top-[52%] left-0' />
+            <img src={ellipse} alt="ellipse" className=' absolute lg:-top-[52%] md:-top-[40%] sm:-top-1/3 -top-1/4 left-0' />
         </section>
     )
 }
