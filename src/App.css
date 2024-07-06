@@ -35,8 +35,8 @@
 }
 
 .slider-content .slide-item {
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .slider-content .slick-dots {
@@ -67,4 +67,11 @@
 
 .slider-content .slick-vertical .slick-slide {
     margin-top: 10px;
+}
+
+@media (min-width:640px) {
+    .slider-content .slide-item {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
 }
