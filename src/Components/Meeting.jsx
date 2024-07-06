@@ -4,15 +4,15 @@ const Meeting = () => {
     return (
         <section className=' relative pt-[71px] pb-[60px] bg-[#F2F8FF]'>
             <div className="container px-3">
-                <div className="flex items-center justify-between gap-3">
-                    <div className=" flex flex-col">
-                        <p className=' uppercase font-neue font-normal text-[52px] leading-[66px] text-black'>
+                <div className="flex items-center flex-col md:flex-row md:justify-between gap-3">
+                    <div className=" flex flex-col items-center md:items-start">
+                        <p className=' uppercase font-neue font-normal text-3xl lg:text-4xl xl:text-[52px] xl:leading-[66px] text-black'>
                             Request your
                         </p>
-                        <p className=' uppercase font-neue font-normal text-[52px] leading-[66px] text-black'>
+                        <p className=' uppercase font-neue font-normal text-center md:text-left text-3xl lg:text-4xl xl:text-[52px] xl:leading-[66px] text-black'>
                             <span className='text-[#F77B0B]'>non-binding</span> strategy
                         </p>
-                        <p className=' uppercase font-neue font-normal text-[52px] leading-[66px] text-black'>
+                        <p className=' uppercase font-neue font-normal text-3xl lg:text-4xl xl:text-[52px] xl:leading-[66px] text-black'>
                             meeting now!
                         </p>
                     </div>
