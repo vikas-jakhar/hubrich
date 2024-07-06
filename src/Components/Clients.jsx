@@ -51,8 +51,8 @@ const Clients = () => {
 
   return (
     <section className='pt-24 pb-[75px] relative'>
-      <div className="container px-3 mt-24 mb-20 py-2 relative">
-        <div className=" absolute -top-[168px] right-0 flex items-start flex-col" data-aos="fade-right" data-aos-duration="1000">
+      <div className="container px-3 mt-24 mb-20 pt-2 pb-[34px] relative">
+        <div className=" absolute -top-[176px] right-0 flex items-start flex-col" data-aos="fade-right" data-aos-duration="1000">
           <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 ml-[47px] mb-[20px]'>
             MJH
           </p>
@@ -68,7 +68,7 @@ const Clients = () => {
         <h2 className='mt-5 p-px text-center uppercase font-neue font-normal text-black text-[52px] leading-[67px]'>
           What our <span className='text-[#F77B0B]'>clients</span> say
         </h2>
-        <div className="slider-content w-full relative -mt-[20px]">
+        <div className="slider-content w-full relative -mt-[39px]">
           <img src={comma} alt="comma" className=' absolute top-[81px] right-[32px]' />
           <div className="slider-container w-full">
             <Slider {...settings}>
