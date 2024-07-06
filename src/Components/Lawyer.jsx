@@ -23,10 +23,10 @@ const Lawyer = () => {
                     </div>
                 </div>
                 <div className="md:mt-[52px] mt-8 flex md:flex-row -mx-3 xl:mx-0 flex-col-reverse items-center md:items-start">
-                    <div className=" xl:max-w-[547px] xl:max-h-[574px] xl:h-full md:w-1/2 xl:w-full px-3 xl:px-0 w-8/12 mt-3 md:mt-0">
-                        <img src={men} alt="men" className=' w-full' />
+                    <div className=" xl:max-w-[547px] xl:min-h-[574px] xl:h-full md:w-1/2 xl:w-full px-3 xl:px-0 w-8/12 mt-3 md:mt-0" data-aos="fade-right" data-aos-duration="1000">
+                        <img src={men} alt="men" className=' w-full xl:min-h-[574px]' />
                     </div>
-                    <div className="px-3 xl:px-0 md:w-1/2 xl:w-auto w-full">
+                    <div className="px-3 xl:px-0 md:w-1/2 xl:w-auto w-full" data-aos="fade-left" data-aos-duration="1000">
                         <div className="xl:ml-[50px] flex flex-col items-center md:items-start">
                             <p className=' max-w-[523px] text-center md:text-left font-neue font-normal text-3xl sm:text-4xl text-black lg:text-5xl xl:text-[52px] uppercase xl:leading-[66px]'>
                                 LAWYER <span className=' text-[#F77B0B]'>&</span> DIVORCE COACH
@@ -64,7 +64,7 @@ const Lawyer = () => {
                     </div>
                 </div>
             </div>
-            <img src={layer} alt="layer" className=' absolute right-0 bottom-0' />
+            <img src={layer} alt="layer" className=' absolute right-0 -bottom-5' />
         </section>
     )
 }

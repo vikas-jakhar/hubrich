@@ -10,12 +10,13 @@ module.exports = {
         'self-img': "url('./Assets/image/webp/self-bg-img.png')",
         'ring': "url('./Assets/image/webp/ring-img.png')",
         'women': "url('./Assets/image/webp/women-img.png')",
+        'sec_bg': "url('./Assets/image/webp/bg-img1.png')",
       },
       fontFamily: {
         'inter': "Inter, sans-serif",
         'neue': "Helvetica Neue, sans-serif",
         'poppins': "Poppins, sans-serif",
-      }
+      } 
     },
     container: {
       screens: {

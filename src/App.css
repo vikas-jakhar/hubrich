@@ -34,8 +34,37 @@
     background: #FFFFFF;
 }
 
-@media (max-width:639.9px) {
-    .slick-slider {
-        height: 350px;
-    }
+.slider-content .slide-item {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.slider-content .slick-dots {
+    transform: rotate(90deg);
+    right: -3.7%;
+    bottom: auto;
+    width: auto;
+    top: 56.7%;
+}
+
+.slider-content .slick-dots li,
+.slider-content .slick-dots li button {
+    width: 12px;
+    height: 12px;
+}
+
+.slider-content .slick-dots li button:before {
+    width: 12px;
+    height: 12px;
+    background: #003E92;
+    opacity: 10%;
+}
+
+.slider-content .slick-dots li.slick-active button:before {
+    background: #003E92;
+    opacity: 100%;
+}
+
+.slider-content .slick-vertical .slick-slide {
+    margin-top: 10px;
 }

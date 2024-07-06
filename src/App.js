@@ -10,6 +10,9 @@ import Mindset from './Components/Mindset';
 import Your from './Components/Your';
 import Lawyer from './Components/Lawyer';
 import Clients from './Components/Clients';
+import Meeting from './Components/Meeting';
+import Strategy from './Components/Strategy';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
       <Your />
       <Lawyer />
       <Clients />
+      <Meeting />
+      <Strategy />
+      <Footer />
     </main>
   );
 }
