@@ -6,7 +6,7 @@ import redline from "../Assets/image/webp/red-line.png";
 
 const Fault01 = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({ once: true });
     }, [])
     return (
         <section className=' relative pb-7 pt-16'>
