@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import msg from "../Assets/image/svg/msg-icon.svg";
-import flower from "../Assets/image/webp/flower.png";
-import centerflower from "../Assets/image/webp/center-flower.png";
-import bottomflower from "../Assets/image/webp/bottom-left-flower.png";
-import redline from "../Assets/image/webp/red-line2.png";
-import redline3 from "../Assets/image/webp/red-line3.png";
+import flower from "../Assets/image/webp/flower.webp";
+import centerflower from "../Assets/image/webp/center-flower.webp";
+import bottomflower from "../Assets/image/webp/bottom-left-flower.webp";
+import redline from "../Assets/image/webp/red-line2.webp";
+import redline3 from "../Assets/image/webp/red-line3.webp";
 
 const Book02 = () => {
     return (

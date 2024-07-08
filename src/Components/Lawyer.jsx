@@ -1,7 +1,7 @@
 import React from 'react';
-import redline from "../Assets/image/webp/red-line5.png";
-import men from "../Assets/image/webp/men-img.png";
-import layer from "../Assets/image/webp/line-layer.png";
+import redline from "../Assets/image/webp/red-line5.webp";
+import men from "../Assets/image/webp/men-img.webp";
+import layer from "../Assets/image/webp/line-layer.webp";
 
 const Lawyer = () => {
     return (
@@ -31,13 +31,13 @@ const Lawyer = () => {
                             <p className=' max-w-[523px] text-center md:text-left font-neue font-normal text-3xl sm:text-4xl text-black lg:text-5xl xl:text-[52px] uppercase xl:leading-[66px]'>
                                 LAWYER <span className=' text-[#F77B0B]'>&</span> DIVORCE COACH
                             </p>
-                            <p className='font-neue text-center md:text-left font-normal xl:text-[37px] lg:text-3xl text-2xl xl:leading-[37px] text-black uppercase lg:mb-7 mb-3'>
+                            <p className='font-neue mt-2 pt-0.5 text-center md:text-left font-normal xl:text-[37px] lg:text-3xl text-2xl xl:leading-[37px] text-black uppercase lg:mb-7 mb-3'>
                                 <span className='text-[#F77B0B]'>M</span>arc <span className='text-[#F77B0B]'>J</span>oachim <span className='text-[#F77B0B]'>H</span>ubrich
                             </p>
                             <p className=' pt-0.5 text-center md:text-left font-neue font-bold text-xl text-black'>
                                 About the mindset agency coach
                             </p>
-                            <p className=' mt-3 text-center md:text-left font-poppins font-normal text-black text-base opacity-70 max-w-[484px] mb-0.5 pb-px'>
+                            <p className=' mt-5 text-center md:text-left font-poppins font-normal text-black text-base opacity-70 max-w-[484px] mb-0.5 pb-px'>
                                 Marc J. Hubrich is the founder of the mindset agency specializing in consulting services.
                             </p>
                             <div className=" max-w-[350px] mt-8 rounded-[63px] w-full p-[1.7px] bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] cursor-pointer">

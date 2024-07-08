@@ -1,5 +1,5 @@
 import React from 'react';
-import layer from "../Assets/image/webp/footer-layer.png";
+import layer from "../Assets/image/webp/footer-layer.webp";
 
 const Footer = () => {
     return (

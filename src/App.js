@@ -14,6 +14,7 @@ import Meeting from './Components/Meeting';
 import Strategy from './Components/Strategy';
 import Footer from './Components/Footer';
 import Scrolltop from './Components/Scrolltop';
+import Preloader from './Components/Preloader';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Strategy />
       <Footer />
       <Scrolltop />
+      <Preloader />
     </main>
   );
 }

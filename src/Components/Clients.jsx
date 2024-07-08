@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from "react-slick";
 import women from "../Assets/image/svg/women-img.svg";
-import redline from "../Assets/image/webp/red-line6.png";
-import redline2 from "../Assets/image/webp/red-line7.png";
-import comma from "../Assets/image/webp/comma.png";
+import redline from "../Assets/image/webp/red-line6.webp";
+import redline2 from "../Assets/image/webp/red-line7.webp";
+import comma from "../Assets/image/webp/comma.webp";
 
 const Clients = () => {
   // const sliderRef = useRef(null);
@@ -71,7 +71,7 @@ const Clients = () => {
         <h2 className='md:mt-5 p-px text-center uppercase font-neue font-normal text-black text-3xl sm:text-4xl md:text-[52px] md:leading-[67px]' data-aos="fade-left" data-aos-duration="1000">
           What our <span className='text-[#F77B0B]'>clients</span> say
         </h2>
-        <div className="slider-content w-full relative lg:-mt-[39px]" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="slider-content w-full relative lg:-mt-[50px]" data-aos="zoom-in" data-aos-duration="1000">
           <img src={comma} alt="comma" className=' absolute top-16 lg:top-[81px] right-[32px] hidden sm:flex' />
           <div className="slider-container w-full">
             <Slider {...settings}>

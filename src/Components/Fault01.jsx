@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import top_end from "../Assets/image/webp/sec-2-top-end.png";
-import redline from "../Assets/image/webp/red-line.png";
+import top_end from "../Assets/image/webp/sec-2-top-end.webp";
+import redline from "../Assets/image/webp/red-line.webp";
 
 const Fault01 = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({ once: true });
     }, [])
     return (
         <section className=' relative pb-7 pt-16'>

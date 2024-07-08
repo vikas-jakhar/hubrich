@@ -1,9 +1,9 @@
 import React from 'react';
-import redline from "../Assets/image/webp/red-line4.png";
-import ellipse from "../Assets/image/webp/ellipse-top.png";
+import redline from "../Assets/image/webp/red-line4.webp";
+import ellipse from "../Assets/image/webp/ellipse-top.webp";
 import msg from "../Assets/image/svg/msg-icon.svg";
 import Slider from "react-slick";
-import layer from "../Assets/image/webp/slider-layer.png";
+import layer from "../Assets/image/webp/slider-layer.webp";
 
 const Mindset = () => {
     const NextArrow = (props) => {
