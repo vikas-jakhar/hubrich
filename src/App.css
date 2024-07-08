@@ -35,13 +35,13 @@
 }
 
 .slider-content .slide-item {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .slider-content .slick-dots {
     transform: rotate(90deg);
-    right: -3.7%;
+    right: -6.7%;
     bottom: auto;
     width: auto;
     top: 56.7%;
@@ -73,5 +73,9 @@
     .slider-content .slide-item {
         margin-bottom: 80px;
         margin-top: 80px;
+    }
+
+    .slider-content .slick-dots {
+        right: -3.7%;
     }
 }

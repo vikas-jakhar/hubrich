@@ -13,6 +13,7 @@ import Clients from './Components/Clients';
 import Meeting from './Components/Meeting';
 import Strategy from './Components/Strategy';
 import Footer from './Components/Footer';
+import Scrolltop from './Components/Scrolltop';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Meeting />
       <Strategy />
       <Footer />
+      <Scrolltop />
     </main>
   );
 }
