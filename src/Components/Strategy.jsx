@@ -4,7 +4,7 @@ import msg from "../Assets/image/svg/msg-icon.svg";
 const Strategy = () => {
     return (
         <section className=' py-28 bg-sec_bg bg-no-repeat bg-cover bg-center'>
-            <div className="container px-3 -mt-px xl:mb-[74px]">
+            <div className="container px-3 -mt-px xl:mb-[70px]">
                 <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:gap-0 gap-[34px] items-center">
                     <div className=" max-w-[250px] min-h-[200px] bg-[#FFFFFF26] w-full pt-14 flex justify-center duration-300 ease-linear hover:bg-[#003E92]" data-aos="zoom-in" data-aos-duration="1000">
                         <p className=' mt-1 pt-px max-w-[173px] font-poppins font-normal text-base text-white'>

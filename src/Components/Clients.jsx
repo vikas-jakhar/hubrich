@@ -40,7 +40,7 @@ const Clients = () => {
     vertical: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     verticalSwiping: true,
     swipeToSlide: true,
     arrows: false,
@@ -53,10 +53,10 @@ const Clients = () => {
   };
 
   return (
-    <section className='pt-24 pb-[75px] relative'>
+    <section className='sm:pt-24 pt-5 pb-[80px] relative'>
       <div className="container px-3 mt-24 mb-20 pt-2 pb-[34px] relative">
-        <div className=" absolute -top-[176px] right-0 flex items-start flex-col" data-aos="fade-up" data-aos-duration="1000">
-          <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 md:ml-[32px] ml-3 lg:ml-[47px] sm:ml-[13px] mb-[20px]'>
+        <div className=" absolute sm:-top-[176px] -top-24 right-0 flex items-start flex-col" data-aos="fade-up" data-aos-duration="1000">
+          <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 md:ml-[32px] ml-2 lg:ml-[47px] sm:ml-[13px] mb-[20px]'>
             MJH
           </p>
           <div className=" flex items-end">
@@ -65,13 +65,13 @@ const Clients = () => {
                 06
               </span>
             </div>
-            <img src={redline} alt="redline" className=' lg:w-auto w-4/12' />
+            <img src={redline} alt="redline" className=' lg:w-auto sm:w-4/12 w-2/12' />
           </div>
         </div>
         <h2 className='md:mt-5 p-px text-center uppercase font-neue font-normal text-black text-3xl sm:text-4xl md:text-[52px] md:leading-[67px]' data-aos="fade-left" data-aos-duration="1000">
           What our <span className='text-[#F77B0B]'>clients</span> say
         </h2>
-        <div className="slider-content w-full relative lg:-mt-[50px]" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="slider-content w-full relative lg:-mt-[34px]" data-aos="zoom-in" data-aos-duration="1000">
           <img src={comma} alt="comma" className=' absolute top-16 lg:top-[81px] right-[32px] hidden sm:flex' />
           <div className="slider-container w-full">
             <Slider {...settings}>
