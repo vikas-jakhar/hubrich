@@ -27,7 +27,6 @@ const Clients = () => {
       console.log("after change", currentSlide);
     }
   };
-
   return (
     <section className='sm:pt-24 pt-5 pb-[80px] relative'>
       <div className="container px-3 mt-24 mb-20 pt-2 pb-[34px] relative">
