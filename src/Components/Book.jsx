@@ -1,12 +1,19 @@
-import React, { useEffect } from 'react';
-import msg from "../Assets/image/svg/msg-icon.svg";
-import flower from "../Assets/image/webp/flower.webp";
-import centerflower from "../Assets/image/webp/center-flower.webp";
-import bottomflower from "../Assets/image/webp/bottom-left-flower.webp";
-import redline from "../Assets/image/webp/red-line2.webp";
-import redline3 from "../Assets/image/webp/red-line3.webp";
+import React from 'react';
+import msg from "../assets/image/svg/msg-icon.svg";
+import flower from "../assets/image/webp/flower.webp";
+import centerflower from "../assets/image/webp/center-flower.webp";
+import bottomflower from "../assets/image/webp/bottom-left-flower.webp";
+import redline from "../assets/image/webp/red-line2.webp";
+import redline3 from "../assets/image/webp/red-line3.webp";
 
 const Book02 = () => {
+    const blue_box = [
+        { id: 1, text: " Why does your EX have to disappear from your life forever?" },
+        { id: 2, text: " What should your everyday life as a single person look like now and how can you cope with the new challenges?" },
+        { id: 3, text: " How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?" },
+        { id: 4, text: " Who are you without your EX?" },
+        { id: 5, text: " What new dreams and hopes do you want to live?" },
+    ]
     return (
         <section className=' pt-11 pb-6 relative'>
             <div className="container px-3 relative z-[1] my-0.5 pt-px pb-5">
@@ -49,31 +56,13 @@ const Book02 = () => {
                     In a 1:1 live coaching session, we will clarify the following questions in particular:
                 </h2>
                 <div className=" mt-7 w-full flex flex-row flex-wrap mb-5 lg:mb-[77px]">
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
-                        <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
-                            Why does your EX have to disappear from your life forever?
-                        </p>
-                    </div>
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
-                        <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
-                            What should your everyday life as a single person look like now and how can you cope with the new challenges?
-                        </p>
-                    </div>
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
-                        <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
-                            How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?
-                        </p>
-                    </div>
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
-                        <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
-                            Who are you without your EX?
-                        </p>
-                    </div>
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
-                        <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
-                            What new dreams and hopes do you want to live?
-                        </p>
-                    </div>
+                    {blue_box.map(item => (
+                        <div key={item.id} className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
+                            <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
+                                {item.text}
+                            </p>
+                        </div>
+                    ))}
                     <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 items-start hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
                         <div className=" max-w-[292px] rounded-lg w-full p-[1.7px] bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] cursor-pointer">
                             <div className=" flex items-center  max-w-[292px] rounded-lg w-full py-[18px] px-2 bg-white duration-300 ease-linear hover:shadow-[0_0_5px_#1E52CF_inset]">

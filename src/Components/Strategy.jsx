@@ -1,5 +1,5 @@
 import React from 'react';
-import msg from "../Assets/image/svg/msg-icon.svg";
+import msg from "../assets/image/svg/msg-icon.svg";
 
 const Strategy = () => {
     return (

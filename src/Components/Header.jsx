@@ -1,29 +1,36 @@
 import React, { useState } from 'react';
-import msg from "../Assets/image/svg/msg-icon.svg";
-import phone from "../Assets/image/svg/phone-call.svg";
+import msg from "../assets/image/svg/msg-icon.svg";
+import phone from "../assets/image/svg/phone-call.svg";
+import ellipse from "../assets/image/webp/hero-layer.webp";
 
 const Header = () => {
-    const [open, setopen] = useState(false);
-    function togglemenu() {
-        setopen(!open);
+    const [open, setOpen] = useState(false);
+
+    const navLinks = [
+        { id: 1, text: "Benefits", href: "#benefits" },
+        { id: 2, text: "Testimonials", href: "#testimonials" },
+    ];
+
+    function toggleMenu() {
+        setOpen(!open);
     }
+
     return (
         <section className=' bg-white md:min-h-[810px] sm:min-h-[710px] py-2 bg-hero-img bg-no-repeat bg-cover sm:bg-center' id='hero'>
             <div className="container px-3 relative z-[1]">
                 <nav className=' flex lg:justify-end w-full mt-4 pt-px mb-20 justify-center'>
                     <div className=" flex items-center gap-10 justify-between w-full sm:w-auto">
                         <div className={`${open ? "left-1/2 -translate-x-1/2" : ""} flex absolute sm:translate-x-0  top-24 -left-full sm:relative sm:top-0 sm:left-0 items-center gap-10 duration-300 ease-linear`}>
-                            <a href="#hero" onClick={togglemenu} className=' font-normal text-base font-neue text-black xl:text-white duration-300 ease-linear hover:text-[#1E52CF]'>
-                                Benifits
-                            </a>
-                            <a href="#hero" onClick={togglemenu} className=' font-normal text-base font-neue text-black xl:text-white duration-300 ease-linear hover:text-[#1E52CF]'>
-                                Testimonials
-                            </a>
+                            {navLinks.map(link => (
+                                <a key={link.id} href={link.href} onClick={toggleMenu} className=' font-normal text-base font-neue text-black xl:text-white duration-300 ease-linear hover:text-[#1E52CF]'>
+                                    {link.text}
+                                </a>
+                            ))}
                         </div>
                         <button className=' py-4 text-nowrap px-7 bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] text-white text-base font-medium font-inter duration-300 ease-linear hover:bg-transparent hover:bg-none border-0 hover:shadow-[0_0_5px_#1E52CF_inset] hover:text-[#1E52CF]'>
                             Book consultation now
                         </button>
-                        <div className="relative w-7 h-5 sm:hidden" onClick={togglemenu}>
+                        <div className="relative w-7 h-5 sm:hidden" onClick={toggleMenu}>
                             <span className={`${open ? "rotate-45 top-1/2 -translate-y-1/2" : "top-0"} flex w-full h-1 bg-[#1E52CF] absolute duration-300 ease-linear`}></span>
                             <span className={`${open ? " opacity-0" : ""} flex w-full h-1 bg-[#1E52CF] absolute top-1/2 -translate-y-1/2 duration-300 ease-linear`}></span>
                             <span className={`${open ? "-rotate-45 top-1/2 -translate-y-1/2" : "bottom-0"} flex w-full h-1 bg-[#1E52CF] absolute duration-300 ease-linear`}></span>
@@ -32,17 +39,15 @@ const Header = () => {
                 </nav>
                 <div className=" xl:pt-20 lg:pt-10 max-w-[517px] w-full">
                     <h2 className=' font-normal text-lg font-neue text-[#F77B0B]'>
-                        Marc joachim hubrich
+                        Marc Joachim Hubrich
                     </h2>
                     <p className=' text-4xl sm:text-5xl my-2 lg:my-0 lg:text-6xl text-black font-neue font-normal uppercase lg:leading-[77.28px]'>
-                        Now I let you
-                        go!
+                        Now I let you go!
                     </p>
                     <div className='mt-1.5 pt-px opacity-70 text-base text-black font-normal font-poppins mb-0.5'>
                         For women who do not want to be completely dragged down by a SEPARATION.
                         <p>
-                            How to let go of your EX so you can leave him behind
-                            without having to run to a therapist right away.
+                            How to let go of your EX so you can leave him behind without having to run to a therapist right away.
                         </p>
                     </div>
                     <div className=" flex justify-between items-center mt-8">
@@ -83,8 +88,9 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <img src={ellipse} alt="ellipse" className=' absolute top-0 left-0' />
         </section>
-    )
+    );
 }
 
 export default Header;

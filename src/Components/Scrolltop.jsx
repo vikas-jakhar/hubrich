@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Scroll from "../Assets/image/svg/srcolltop.svg";
+import Scroll from "../assets/image/svg/srcolltop.svg";
 
 const Scrolltop = () => {
     const scrolltotop = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
-import redline from "../Assets/image/webp/red-line5.webp";
-import men from "../Assets/image/webp/men-img.webp";
-import layer from "../Assets/image/webp/line-layer.webp";
+import redline from "../assets/image/webp/red-line5.webp";
+import men from "../assets/image/webp/men-img.webp";
+import layer from "../assets/image/webp/line-layer.webp";
 
 const Lawyer = () => {
     return (
@@ -64,7 +64,7 @@ const Lawyer = () => {
                     </div>
                 </div>
             </div>
-            <img src={layer} alt="layer" className=' absolute right-0 -bottom-5' />
+            <img src={layer} alt="layer" className=' absolute right-0 -bottom-5 w-1/2' />
         </section>
     )
 }

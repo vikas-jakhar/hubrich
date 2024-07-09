@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url('./Assets/image/webp/Hero-bg-img.webp')",
-        'self-img': "url('./Assets/image/webp/self-bg-img.webp')",
-        'ring': "url('./Assets/image/webp/ring-img.webp')",
-        'women': "url('./Assets/image/webp/women-img.webp')",
-        'sec_bg': "url('./Assets/image/webp/bg-img1.webp')",
+        'hero-img': "url('./assets/image/webp/Hero-bg-img.webp')",
+        'self-img': "url('./assets/image/webp/self-bg-img.webp')",
+        'ring': "url('./assets/image/webp/ring-img.webp')",
+        'women': "url('./assets/image/webp/women-img.webp')",
+        'sec_bg': "url('./assets/image/webp/bg-img1.webp')",
       },
       fontFamily: {
         'inter': "Inter, sans-serif",

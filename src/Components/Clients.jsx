@@ -1,35 +1,11 @@
 import React from 'react';
 import Slider from "react-slick";
-import women from "../Assets/image/svg/women-img.svg";
-import redline from "../Assets/image/webp/red-line6.webp";
-import redline2 from "../Assets/image/webp/red-line7.webp";
-import comma from "../Assets/image/webp/comma.webp";
+import women from "../assets/image/svg/women-img.svg";
+import redline from "../assets/image/webp/red-line6.webp";
+import redline2 from "../assets/image/webp/red-line7.webp";
+import comma from "../assets/image/webp/comma.webp";
 
 const Clients = () => {
-  // const sliderRef = useRef(null);
-
-  // useEffect(() => {
-  // const handleWheel = (e) => {
-  //   e.preventDefault();
-  //   if (e.deltaY < 0) {
-  //     sliderRef.current.slickPrev();
-  //   } else {
-  //     sliderRef.current.slickNext();
-  //   }
-  // };
-
-  //   const sliderElement = document.querySelector('.slider-container');
-
-  //   if (sliderElement) {
-  //     sliderElement.addEventListener('wheel', handleWheel);
-  //   }
-
-  //   return () => {
-  //     if (sliderElement) {
-  //       sliderElement.removeEventListener('wheel', handleWheel);
-  //     }
-  //   };
-  // }, []);
 
 
   const settings = {

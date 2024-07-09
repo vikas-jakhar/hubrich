@@ -1,28 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header';
-import Fault01 from './Components/Fault01';
-import Self from './Components/Self';
-import Book02 from './Components/Book02';
-import Target from './Components/Target';
-import Ring from './Components/Ring';
-import Mindset from './Components/Mindset';
-import Your from './Components/Your';
-import Lawyer from './Components/Lawyer';
-import Clients from './Components/Clients';
-import Meeting from './Components/Meeting';
-import Strategy from './Components/Strategy';
-import Footer from './Components/Footer';
-import Scrolltop from './Components/Scrolltop';
-import Preloader from './Components/Preloader';
+import Header from './components/Header';
+import Fault from './components/Fault';
+import Self from './components/Self';
+import Book from './components/Book';
+import Target from './components/Target';
+import Ring from './components/Ring';
+import Mindset from './components/Mindset';
+import Your from './components/Your';
+import Lawyer from './components/Lawyer';
+import Clients from './components/Clients';
+import Meeting from './components/Meeting';
+import Strategy from './components/Strategy';
+import Footer from './components/Footer';
+import Scrolltop from './components/Scrolltop';
+import Preloader from './components/Preloader';
 
 function App() {
   return (
     <main className=' overflow-hidden'>
       <Header />
-      <Fault01 />
+      <Fault />
       <Self />
-      <Book02 />
+      <Book />
       <Target />
       <Ring />
       <Mindset />

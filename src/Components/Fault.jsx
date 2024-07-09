@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import top_end from "../Assets/image/webp/sec-2-top-end.webp";
-import redline from "../Assets/image/webp/red-line.webp";
+import top_end from "../assets/image/webp/sec-2-top-end.webp";
+import redline from "../assets/image/webp/red-line.webp";
 
 const Fault01 = () => {
     useEffect(() => {
@@ -16,7 +16,7 @@ const Fault01 = () => {
                         <h2 className=' text-black font-neue font-normal lg:leading-[77.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000" >
                             IT'S NOT
                         </h2>
-                        <h2 className=' text-black font-neue font-normal lg:leading-[77.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000">
+                        <h2 className=' text-black font-neue font-normal ml-[73px] lg:leading-[77.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000">
                             <span className='text-[#F77B0B]'>YOUR</span> FAULT!
                         </h2>
                     </div>
