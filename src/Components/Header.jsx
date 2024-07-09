@@ -61,7 +61,7 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <a href="callto:9999999999">
+                        <a href="callto:9999999999" >
                             <img src={phone} alt="phone-call" className=' cursor-pointer duration-300 ease-linear hover:drop-shadow-[0_5px_2px_#1E52CF]' />
                         </a>
                     </div>
