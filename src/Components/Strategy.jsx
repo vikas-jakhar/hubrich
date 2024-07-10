@@ -35,7 +35,7 @@ const Strategy = () => {
                         </div>
                     ))}
                 </div>
-                <div className="flex justify-center pt-14" data-aos="fade-up" data-aos-duration="1000">
+                <div className="flex justify-center pt-[51px]" data-aos="fade-up" data-aos-duration="1000">
                     <div className=" max-w-[452px] mt-0.5 rounded-[63px] w-full p-[1.7px] bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] cursor-pointer duration-300 ease-linear hover:shadow-[0_0_10px_#FFFFFF]">
                         <div className=" flex items-center max-w-[452px] rounded-[63px] w-full py-[5.83px] px-2 bg-white duration-300 ease-linear hover:shadow-[0_0_8px_#1E52CF_inset]">
                             <img src={msg} alt="msg-icon" />

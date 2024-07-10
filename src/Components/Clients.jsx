@@ -28,7 +28,7 @@ const Clients = () => {
     }
   };
   return (
-    <section className='sm:pt-24 pt-5 pb-[80px] relative'>
+    <section className='sm:pt-24 pt-5 pb-[74px] relative'>
       <div className="container px-3 mt-24 mb-20 pt-2 pb-[34px] relative">
         <div className=" absolute sm:-top-[176px] -top-24 right-0 flex items-start flex-col" data-aos="fade-up" data-aos-duration="1000">
           <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 md:ml-[32px] ml-2 lg:ml-[47px] sm:ml-[13px] mb-[20px]'>
