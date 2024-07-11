@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const Target = () => {
     return (
-        <section className=' pt-12 bg-[#F2F8FF] pb-1'>
+        <section className=' pt-12 bg-[#F2F8FF] pb-1 max-w-[1920px] mx-auto'>
             <div className="container px-3 relative z-[1]">
                 <div className="flex  lg:justify-end items-center flex-col md:flex-row gap-5 lg:gap-[129px] mb-[50px]">
                     <h2 className=' uppercase lg:text-[52px] text-4xl font-neue font-normal text-nowrap mt-[7px]' data-aos="fade-right" data-aos-duration="1000">

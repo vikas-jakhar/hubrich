@@ -2,7 +2,7 @@ import React from 'react'
 
 const Meeting = () => {
     return (
-        <section className=' relative pt-[71px] pb-[63px] bg-[#F2F8FF]'>
+        <section className=' relative pt-[71px] pb-[63px] bg-[#F2F8FF] max-w-[1920px] mx-auto'>
             <div className="container px-3">
                 <div className="flex items-center flex-col md:flex-row md:justify-between gap-3">
                     <div className=" flex flex-col items-center md:items-start" data-aos="fade-right" data-aos-duration="1000">

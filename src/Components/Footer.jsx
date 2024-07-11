@@ -5,7 +5,7 @@ import { Email, Facebook, Insta, Twitter } from '../icon';
 const Footer = () => {
     const currentyear = new Date().getFullYear();
     return (
-        <footer className='bg-[#003E92] xl:min-h-[343px] relative py-8 xl:pt-24 pb-10 xl:pb-4'>
+        <footer className='bg-[#003E92] xl:min-h-[343px] relative py-8 xl:pt-24 pb-10 xl:pb-4 max-w-[1920px] mx-auto'>
             <div className="container px-3 relative z-[1] h-full mt-5">
                 <div className=" sm:absolute top-1/2 -translate-y-1/2 right-3 flex justify-center sm:flex-col gap-3">
                     <a target='_blank' href="https://www.facebook.com/login/" className=' duration-300 ease-linear hover:scale-105 hover:drop-shadow-[0_0_15px_#FFFFFF]'>
