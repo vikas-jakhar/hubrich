@@ -26,7 +26,7 @@ const Fault01 = () => {
                         </p>
                     </div>
                 </div>
-                <h2 className=' mt-14 text-center font-neue font-normal text-xl text-black' data-aos="fade-up" data-aos-duration="1000">
+                <h2 className=' mt-14 text-center font-neue capitalize font-extrabold text-xl text-black' data-aos="fade-up" data-aos-duration="1000">
                     How would you know when you are busy with completely different things at the moment:
                 </h2>
                 <div className=" absolute -top-36 sm:-top-40 md:-top-48 lg:-top-[106%] xl:-top-[115%] left-3 flex items-start flex-col" data-aos="fade-right" data-aos-duration="1000">

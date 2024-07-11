@@ -52,7 +52,7 @@ const Book02 = () => {
                         </div>
                     </div>
                 </div>
-                <h2 className='text-center mt-12 font-neue font-normal text-xl text-black' data-aos="fade-up" data-aos-duration="1000">
+                <h2 className='text-center mt-12 font-neue font-extrabold text-xl text-black' data-aos="fade-up" data-aos-duration="1000">
                     In a 1:1 live coaching session, we will clarify the following questions in particular:
                 </h2>
                 <div className=" mt-7 w-full flex flex-row flex-wrap mb-5 lg:mb-[77px]">
