@@ -5,7 +5,7 @@ import layer from "../assets/image/webp/line-layer.webp";
 
 const Lawyer = () => {
     return (
-        <section className=' relative pt-3'>
+        <section className=' relative pt-3 max-w-[1920px] mx-auto'>
             <div className="container px-3 relative z-[1]">
                 <div className=" flex justify-start">
                     <div className=" relative flex items-start flex-col md:-right-1 lg:right-0" data-aos="fade-right" data-aos-duration="1000">

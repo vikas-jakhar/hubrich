@@ -14,7 +14,7 @@ const Self = () => {
   ];
 
   return (
-    <section className='relative bg-self-img bg-no-repeat bg-cover bg-center py-2 md:py-0'>
+    <section className='relative bg-self-img bg-no-repeat bg-cover bg-center py-2 md:py-0 max-w-[1920px] mx-auto'>
       <div className="container px-3">
         <div className="flex justify-center flex-wrap md:flex-nowrap lg:justify-end w-full lg:pr-[78px] gap-[29px] md:gap-0">
           {blue_box_row1.map(item => (

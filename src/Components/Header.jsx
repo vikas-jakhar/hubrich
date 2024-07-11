@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import msg from "../assets/image/svg/msg-icon.svg";
 import phone from "../assets/image/svg/phone-call.svg";
 import ellipse from "../assets/image/webp/hero-layer.webp";
+import hero from "../assets/image/webp/hero-img.webp";
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
     }
 
     return (
-        <section className=' bg-white md:min-h-[93vh] sm:min-h-[710px] py-2 bg-hero-img bg-no-repeat bg-cover sm:bg-center' id='hero'>
+        <section className=' bg-white lg:min-h-[810px] sm:min-h-[660px] relative py-2 max-w-[1920px] mx-auto' id='hero'>
             <div className="container px-3 relative z-[1]">
                 <nav className=' flex lg:justify-end w-full mt-4 pt-px mb-20 justify-center'>
                     <div className=" flex items-center gap-10 justify-between w-full sm:w-auto">
@@ -27,7 +28,7 @@ const Header = () => {
                                 </a>
                             ))}
                         </div>
-                        <button className=' py-4 text-nowrap px-7 bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] text-white text-base font-medium font-inter duration-300 ease-linear hover:bg-transparent hover:bg-none border-0 hover:shadow-[0_0_5px_#1E52CF_inset] hover:text-[#1E52CF]'>
+                        <button className=' sm:py-4 text-nowrap sm:px-7 py-3 px-5 bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] text-white text-sm sm:text-base font-medium font-inter duration-300 ease-linear hover:bg-transparent hover:bg-none border-0 hover:shadow-[0_0_5px_#1E52CF_inset] hover:text-[#1E52CF]'>
                             Book consultation now
                         </button>
                         <div className="relative w-7 h-5 sm:hidden" onClick={toggleMenu}>
@@ -66,7 +67,7 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
-                <div className=" pt-16 -mt-px flex w-full justify-start lg:justify-end xl:pr-14">
+                <div className=" pt-16 -mt-px flex w-full justify-start lg:justify-end xl:pr-14 lg:mb-5">
                     <div className=" max-w-[365.68px] w-full border-[#9800B0] border-s-2 pl-3 xl:mr-14 lg:mt-1">
                         <div className=" ml-px flex w-full items-start justify-between gap-1 -mt-[5px]">
                             <p className=' font-neue font-normal uppercase text-xs sm:text-base max-w-[146px] lg:text-white text-black'>
@@ -91,6 +92,7 @@ const Header = () => {
                 </div>
             </div>
             <img src={ellipse} alt="ellipse" className=' absolute top-0 left-0' />
+            <img src={hero} alt="hero" className=' absolute right-0 top-0 h-full xl:w-[53.4%] w-1/2 hidden lg:flex' />
         </section>
     );
 }

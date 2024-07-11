@@ -15,7 +15,7 @@ const Book02 = () => {
         { id: 5, text: " What new dreams and hopes do you want to live?" },
     ]
     return (
-        <section className=' pt-11 pb-6 relative'>
+        <section className=' pt-11 pb-6 relative max-w-[1920px] mx-auto'>
             <div className="container px-3 relative z-[1] my-0.5 pt-px pb-5">
                 <h2 className=' font-poppins font-normal text-base text-black mb-5 text-center' data-aos="fade-up" data-aos-duration="1000">
                     You are not alone! Numerous women before you stood exactly at this point, where you are now.
@@ -57,13 +57,13 @@ const Book02 = () => {
                 </h2>
                 <div className=" mt-7 w-full flex flex-row flex-wrap mb-5 lg:mb-[77px]">
                     {blue_box.map(item => (
-                        <div key={item.id} className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
+                        <div key={item.id} className=" xl:pt-16 py-10 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 hover:bg-[#F5FAFF] group min-h-[180px] xl:min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
                             <p className=' max-w-[283px] font-poppins font-normal text-base text-black -mt-px duration-300 ease-linear group-hover:text-[#003E92]'>
                                 {item.text}
                             </p>
                         </div>
                     ))}
-                    <div className=" pt-16 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 items-start hover:bg-[#F5FAFF] group min-h-[230px] h-full" data-aos="zoom-in" data-aos-duration="1000">
+                    <div className=" xl:pt-16 py-10 duration-300 ease-linear flex justify-center w-full sm:w-6/12 lg:w-4/12 items-start hover:bg-[#F5FAFF] group xl:min-h-[230px] min-h-[180px] h-full" data-aos="zoom-in" data-aos-duration="1000">
                         <div className=" max-w-[292px] rounded-lg w-full p-[1.7px] bg-[linear-gradient(107.9deg,_#0C5FD1_1.25%,_#8703C5_93.71%)] cursor-pointer">
                             <div className=" flex items-center  max-w-[292px] rounded-lg w-full py-[18px] px-2 bg-white duration-300 ease-linear hover:shadow-[0_0_5px_#1E52CF_inset]">
                                 <img src={msg} alt="msg-icon" />
@@ -77,7 +77,7 @@ const Book02 = () => {
                     </div>
                 </div>
                 <div className=" absolute right-0 lg:top-0 md:top-10 sm:top-16 top-44 flex items-start flex-col" data-aos="fade-left" data-aos-duration="1000">
-                    <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider lg:ml-12 md:ml-7 sm:ml-1 -rotate-90 mb-[20px]'>
+                    <p className=' uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider lg:ml-11 md:ml-7 sm:ml-1 ml-1 -rotate-90 mb-[20px]'>
                         MJH
                     </p>
                     <div className=" flex items-end">
@@ -91,7 +91,7 @@ const Book02 = () => {
                 </div>
                 <div className=" absolute bottom-3 left-3 flex items-start flex-col" data-aos="fade-right" data-aos-duration="1000">
                     <div className=" flex items-end">
-                        <img src={redline3} alt="redline3" className=' w-auto' />
+                        <img src={redline3} alt="redline3" className=' xl:w-auto w-2/12' />
                         <div className=" flex items-end -mb-3">
                             <span className=' md:text-3xl lg:text-[40px] lg:mb-3 font-normal font-neue text-black -rotate-90'>
                                 03

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Your = () => {
     return (
-        <section className='py-5 min-h-[517px] bg-women bg-no-repeat bg-cover bg-center flex items-center'>
+        <section className='lg:py-5 py-10 lg:min-h-[517px] bg-women bg-no-repeat bg-cover bg-center flex items-center max-w-[1920px] mx-auto'>
             <div className="container px-3 flex justify-center">
                 <div className="bg-[#FFFFFF26] border-[#FFFFFF26] border-[1px] max-w-[778px] min-h-[305px] w-full backdrop-blur-sm pt-12 flex justify-center" data-aos="zoom-in" data-aos-duration="1000">
                     <div className="mt-0.5 relative z-[1] mb-3 mx-3">

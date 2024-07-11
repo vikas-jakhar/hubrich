@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url('./assets/image/webp/Hero-bg-img.webp')",
         'self-img': "url('./assets/image/webp/self-bg-img.webp')",
         'ring': "url('./assets/image/webp/ring-img.webp')",
         'women': "url('./assets/image/webp/women-img.webp')",
@@ -14,7 +13,7 @@ module.exports = {
       },
       fontFamily: {
         'inter': "Inter, sans-serif",
-        'neue': "Helvetica Neue, sans-serif",
+        'neue': "HelveticaNeue, sans-serif",
         'poppins': "Poppins, sans-serif",
       } 
     },

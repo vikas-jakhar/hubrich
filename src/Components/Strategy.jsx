@@ -15,9 +15,9 @@ const Strategy = () => {
         { id: 4, text: "How do I rebuild my self-esteem?" },
     ]
     return (
-        <section className=' py-28 bg-sec_bg bg-no-repeat bg-cover bg-center'>
+        <section className=' py-28 bg-sec_bg bg-no-repeat bg-cover bg-center max-w-[1920px] mx-auto'>
             <div className="container px-3 -mt-px xl:mb-[70px]">
-                <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:gap-0 gap-[34px] items-center">
+                <div className="flex justify-center flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap lg:gap-0 gap-[34px] items-center">
                     {blue_box_row1.map(item => (
                         <div key={item.id} className=" max-w-[250px] min-h-[200px] bg-[#FFFFFF26] w-full pt-14 flex justify-center duration-300 ease-linear hover:bg-[#003E92]" data-aos="zoom-in" data-aos-duration="1000">
                             <p className=' mt-1 pt-px max-w-[173px] font-poppins font-normal text-base text-white'>
@@ -26,7 +26,7 @@ const Strategy = () => {
                         </div>
                     ))}
                 </div>
-                <div className="flex justify-center mt-8 pt-0.5 flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:gap-0 gap-[34px] items-center">
+                <div className="flex justify-center mt-8 pt-0.5 flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap lg:gap-0 gap-[34px] items-center">
                     {blue_box_row2.map(item => (
                         <div key={item.id} className=" max-w-[250px] min-h-[200px] bg-[#FFFFFF26] w-full pt-14 flex justify-center duration-300 ease-linear hover:bg-[#003E92]" data-aos="zoom-in" data-aos-duration="1000">
                             <p className=' mt-1 pt-px max-w-[173px] font-poppins font-normal text-base text-white'>

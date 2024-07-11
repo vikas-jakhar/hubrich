@@ -16,17 +16,17 @@ const Ring = () => {
         }
     }, []);
     return (
-        <section className=' bg-ring bg-no-repeat bg-cover min-h-[623px] flex items-center py-5 bg-center'>
-            <div className="container px-3 relative z-[1] w-full">
-                <div className=" flex flex-col" ref={containerRef}>
+        <section className=' bg-ring bg-no-repeat bg-cover min-h-[623px] flex items-center py-8 lg:py-5 bg-center max-w-[1920px] mx-auto'>
+            <div className="container px-3 relative z-[1] w-full flex flex-col items-center lg:items-start">
+                <div className=" flex flex-col w-full sm:w-8/12 lg:w-auto" ref={containerRef}>
                     {white_box.map(item => (
-                        <div key={item.id} className=" pt-10 mt-8 px-2 bg-[#FFFFFF1F] border-[#FFFFFF26] border-[1px] max-w-[382px] min-h-[187px] w-full h-full backdrop-blur-sm flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+                        <div key={item.id} className=" pt-10 mt-8 px-2 bg-[#FFFFFF1F] border-[#FFFFFF26] border-[1px] lg:max-w-[382px] min-h-[187px] w-full h-full backdrop-blur-sm flex justify-center" data-aos="fade-right" data-aos-duration="1000">
                             <p className=' font-poppins font-normal text-base text-white max-w-[312px]'>
                                 {item.text}
                             </p>
                         </div>
                     ))}
-                    <div className=" flex justify-center pt-16 max-w-[338px] bg-[#003E92B2] h-[272px] w-full relative md:absolute lg:right-12 md:right-8 md:-bottom-[8.50rem] -bottom-8 backdrop-blur-sm" data-aos="fade-left" data-aos-duration="1000">
+                    <div className=" flex justify-center pt-16 lg:max-w-[338px] bg-[#003E92B2] h-[272px] w-full relative lg:absolute lg:right-12 lg:-bottom-[8.50rem] mt-8 lg:mt-0 backdrop-blur-sm" data-aos="fade-left" data-aos-duration="1000">
                         <p className='max-w-[270px] font-poppins font-normal text-base text-white mt-px'>
                             To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.
                         </p>

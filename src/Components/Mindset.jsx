@@ -46,11 +46,11 @@ const Mindset = () => {
     ];
 
     return (
-        <section className='relative pt-2 pb-24 overflow-hidden'>
+        <section className='relative pt-2 xl:pb-24 pb-5 overflow-hidden max-w-[1920px] mx-auto'>
             <div className="container px-3 mt-2 xl:pb-0 lg:mb-[88px] relative z-[1]">
                 <div className="flex justify-end lg:pb-6">
                     <div className="relative flex items-start flex-col md:-right-1 lg:right-0" data-aos="fade-left" data-aos-duration="1000">
-                        <p className='uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 lg:ml-[164px] md:ml-[136px] sm:ml-[95px] ml-[85px] mb-[20px]'>
+                        <p className='uppercase font-poppins text-black font-light md:text-base lg:text-xl tracking-wider -rotate-90 lg:ml-[154px] md:ml-[130px] sm:ml-[88px] ml-[80px] mb-[20px]'>
                             MJH
                         </p>
                         <div className="flex items-end">
@@ -67,7 +67,7 @@ const Mindset = () => {
                     </div>
                 </div>
                 <div className="mt-3 flex flex-row flex-wrap pb-1 -mx-3 mb-px">
-                    <div className="flex flex-col items-center lg:items-start lg:w-1/2 w-full px-3 pt-9" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="flex flex-col items-center lg:items-start lg:w-1/2 w-full px-3 lg:pt-9" data-aos="fade-right" data-aos-duration="1000">
                         <p className='font-neue font-normal text-2xl sm:text-[29px] leading-[37px] text-black uppercase'>
                             THE FOUR PHASES OF
                         </p>
@@ -88,7 +88,7 @@ const Mindset = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-1/2 w-full px-3 relative mt-6 lg:mt-0 pl-7 sm:pl-14" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="lg:w-1/2 sm:w-9/12 w-full mx-auto px-3 relative mt-6 lg:mt-0 pl-7 sm:pl-14" data-aos="fade-left" data-aos-duration="1000">
                         <Slider {...settings}>
                             {slider_slides.map(slide => (
                                 <div key={slide.id} className="bg-[#003E92] relative min-h-[350px] sm:min-h-[448px]">

@@ -9,14 +9,14 @@ const Fault01 = () => {
         AOS.init({ once: true });
     }, [])
     return (
-        <section className=' relative pb-7 pt-16'>
+        <section className=' relative pb-7 pt-16 max-w-[1920px] mx-auto'>
             <div className="container px-3 mt-20 relative z-[1]">
-                <div className=" flex flex-col sm:flex-row justify-center items-start pt-2 gap-[61.66px] pl-12">
+                <div className=" flex flex-col sm:flex-row justify-center items-start pt-2 gap-5 xl:gap-[61.66px] pl-12">
                     <div className=" flex flex-col">
                         <h2 className=' text-black font-neue font-normal lg:leading-[73.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000" >
                             IT'S NOT
                         </h2>
-                        <h2 className=' text-black font-neue font-normal ml-[73px] lg:leading-[77.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000">
+                        <h2 className=' text-black font-neue font-normal ml-10 lg:ml-4 xl:ml-[73px] lg:leading-[77.28px] text-3xl md:text-5xl lg:text-6xl' data-aos="fade-right" data-aos-duration="1000">
                             <span className='text-[#F77B0B]'>YOUR</span> FAULT!
                         </h2>
                     </div>
